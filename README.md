@@ -4,7 +4,9 @@ how can i init the proyect?
 
 you can make the follow comands:
 [!IMPORTANT]
+
 npm i
+
 npm run dev
 
 [!NOTE]
