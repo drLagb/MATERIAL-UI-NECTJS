@@ -1,0 +1,38 @@
+{
+  "name": "material-ui-nextjs",
+  "version": "5.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "relay-compiler --validate && next build",
+    "start": "next start",
+    "lint": "next lint",
+    "relay": "relay-compiler"
+  },
+  "dependencies": {
+    "@emotion/cache": "latest",
+    "@emotion/react": "latest",
+    "@emotion/styled": "latest",
+    "@mui/icons-material": "latest",
+    "@mui/material": "latest",
+    "@mui/material-nextjs": "latest",
+    "dotenv": "^16.3.1",
+    "eslint": "latest",
+    "eslint-config-next": "latest",
+    "graphql-tag": "^2.12.6",
+    "next": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "react-relay": "^16.1.0",
+    "relay-runtime": "^16.1.0",
+    "uuid": "^9.0.1"
+  },
+  "devDependencies": {
+    "@babel/preset-react": "^7.23.3",
+    "babel-plugin-relay": "^16.1.0",
+    "relay-compiler": "^16.1.0"
+  },
+  "graphql": {
+    "schemaPath": "./src/schema.graphql"
+  }
+}

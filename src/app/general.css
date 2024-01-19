@@ -1,0 +1,27 @@
+/* Cambiar el color del track (línea a lo largo de la cual se mueve el scrollbar) */
+::-webkit-scrollbar-track {
+  background-color: #f1f1f1; /* Puedes ajustar este color según tu preferencia */
+}
+
+/* Cambiar el color del thumb (la "manija" del scrollbar) */
+::-webkit-scrollbar-thumb {
+  background-color: #888; /* Puedes ajustar este color según tu preferencia */
+  border-radius: 5px; /* Añade esquinas redondeadas al thumb */
+}
+
+/* Cambiar el color cuando el mouse pasa sobre el thumb */
+::-webkit-scrollbar-thumb:hover {
+  background-color: #555; /* Puedes ajustar este color según tu preferencia */
+}
+
+/* Ocultar el scrollbar cuando no esté en uso (solo funciona en algunos navegadores) */
+::-webkit-scrollbar {
+  width: 5px; /* Ajusta el ancho del scrollbar según tu preferencia */
+  height: 5px;
+}
+
+/* Para navegadores basados en Firefox */
+/* También puedes agregar estilos específicos para Firefox si es necesario */
+body {
+  scrollbar-color: #f1f1f1 #888;
+}
